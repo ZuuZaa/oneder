@@ -1,0 +1,30 @@
+@import "../../assets/css/colors.scss";
+
+.navbar {
+  position: fixed;
+  color: $white;
+  padding: 2.4rem 6%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  align-items: center;
+  border-bottom: 0.1rem solid rgba(255, 255, 255, 0.2);
+  &__logo {
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: $white;
+  }
+  &__link-list {
+    display: flex;
+    justify-content: flex-end;
+  }
+  &__link {
+    color: #FFFFFFB3;
+    margin: 0.5rem 2rem;
+    line-height: 1.7rem;
+    font-weight: 900;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+  }
+}
